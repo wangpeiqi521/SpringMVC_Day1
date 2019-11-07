@@ -17,6 +17,8 @@ import javax.servlet.http.HttpSession;
 public class firstAction {
 
    //同事
+
+    //本地
     
     @RequestMapping("/A")
     public String A(String username) throws Exception{
