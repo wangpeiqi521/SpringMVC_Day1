@@ -16,6 +16,8 @@ import javax.servlet.http.HttpSession;
 @RequestMapping("/first")
 public class firstAction {
 
+   //同事
+    
     @RequestMapping("/A")
     public String A(String username) throws Exception{
         System.out.println("我是SpringMVC的A方法");
